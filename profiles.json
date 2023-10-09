@@ -1,0 +1,74 @@
+// **Group members profiles**   
+// Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
+	
+window.others = {
+  "posts" : [
+      {
+        "avatar": "avatars/avatar_85.png",
+        "username": "CY",
+        "text": "Can't believe everything is going so well! I wasn't really confident on my BCS quiz but it turns out I got full score (first time in my life ;-;) Classes are also more interesting than I thought when I first sign up, and my classmates are also really nice! They helped me to figure a lot of things out :)) Great shout out to them!",
+        "likes": [14000, 26000, 49000, 67000, 90000, 112000, 136000, 150000] //8
+     },
+     {
+        "avatar": "avatars/avatar_13.png",
+        "username": "OM",
+        "text": "I recently took my first psychology exam of college and it went really well! I like the topic a lot and got the score that I wanted. Now I feel confident every time I walk into class and can't wait to see what I learn next :)",
+        "likes": [20000, 33000, 52000, 75000, 100000, 129000, 148000] //7
+      },
+     {
+        "avatar": "avatars/avatar_42.png",
+        "username": "EMU",
+        "text": "I am feeling so ready to tackle these next few weeks! I love my classes and am actually understanding them semester. It literally makes me excited to go to class. I think having class with my friends helps lol.",
+        "likes": [33300, 44400, 68000, 80000, 147000, 172000] //6
+      },
+      {
+        "avatar": "avatars/avatar_78.png",
+        "username": "AD",
+        "text": "It’s pretty terrible. I’ve been having a really hard time showing up to classes these days... Don’t really want to talk about it to be honest.",
+        "likes": [28000, 71000, 91000, 119000, 161000] //5
+      },
+      {
+        "avatar": "avatars/avatar_61.png",
+        "username": "WBM",
+        "text": "I have a final the day after the Hozier concert and now I'm super upset because I have to give my tickets away. I'm probably going to fail this class anyways so what's the point?",
+        "likes": [29000, 64000, 82000, 105000, 159000] //5
+      },
+      {
+        "avatar": "avatars/avatar_7.png",
+        "username": "DC",
+        "text": "I just have been feeling so defeated these last week. I go to the library everyday after class and feel like I still know nothing. I am barely sleeping and working so hard for what? It is starting to make me feel hopeless & sad:(",
+        "likes": [10000, 27000, 46000, 55000, 80000, 125000, 146000, 160000] //8
+      },
+      {
+        "avatar": "avatars/avatar_34.png",
+        "username": "VN",
+        "text": "My English professor gave me some bs comments on my essay and gave me a B. Like, I did everything in the syllabus but she knocked points off because I used a source from the guided reading but not the core readings even though it said IN THE SYLLABUS that we could write about guided readings. LIKE WHAT???",
+        "likes": [28000, 31000, 47000, 66000, 85000, 92000, 110000, 135000, 158000, 167000] //10
+      },
+      {
+        "avatar": "avatars/avatar_71.png",
+        "username": "FRR",
+        "text": "Feeling pretty pissed after that BCS 110 exam- anyone else relate? I just feel like my efforts don’t match the grade I got - why even try so hard in the first place?! Genuinely I’ve never done worse on an exam in my life ughhh screw that class. That on top of essays and studying for other midterms - academics at this school are so frustrating!!",
+        "likes": [19000, 38000, 41000, 63000, 97000, 137000, 148000, 178000] //8
+      },
+      {
+        "avatar": "avatars/avatar_21.png",
+        "username": "GC",
+        "text": "I do not understand why teachers do not curve exams when the average is a 52?!? This past week I have been so frustrated with the lack of understanding with my professors. It literally makes me mad. Like, if the average is a 52, there is a bigger problem with the teaching style duh!",
+        "likes": [49000, 58000, 71000, 93000, 117000, 157000] //6
+      },
+      {
+        "avatar": "avatars/avatar_35.png",
+        "username": "PFG",
+        "text": "Everything is going on pretty nicely and on track, except one time I missed the school bus. Classes are pretty interesting and not teribbly hard, so hopefully I can handle stuff in the rest of this semester.",
+		"likes": [37500, 68000, 91000, 134000] //4
+      },
+      {
+        "avatar": "avatars/avatar_19.png",
+        "username": "KB",
+        "text": "I think this semester will be one of those under the radar semesters. I don't love or hate my classes/professors. I guess things could be worse, my classes could be super hard. Anyway, everything is just fine.",
+        "likes": [43000, 56000, 129000] //3
+      },
+    ]
+  };
+  

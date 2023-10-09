@@ -1,0 +1,287 @@
+<html lang="en"><!DOCTYPE html>
+
+ <!-- 
+/* 
+  
+This document contains all instructions which appear in the paradigm, along with some basic functionality. You can change all text by following the instructions below. 
+
+If you don't have experience with programming, it is important that you alter only the plain text, as indicated in the instructions, and leave any functional elements intact.
+*/ 
+--> 
+
+<meta charset="utf-8">
+<title>Intro</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Stylesheets -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/alertify.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet">
+
+<!-- For IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+  </script>
+<![endif]-->
+
+<!-- Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0-rc.2/jquery-ui.min.js"></script>
+<script src="alertify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.08/jquery.masonry.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.3.0/mustache.min.js"></script>
+<script src="shortcut.js"></script>
+<script src="main.js"></script>
+<script type="text/javascript" src="profiles.json"></script>
+
+</head>
+
+<body oncontextmenu="return true;">
+<div class="container">
+
+
+
+<div id="intro" style="display:none;" class="instr">
+ <!-- 
+/* 
+  
+**Intro**
+---------
+You can edit this text using basic HTML elements for styling (e.g., <br>, <h3>).
+
+*/ 
+--> <h3>Welcome to <i style="color: #589DF1;">Let's Share</i></h3>
+
+  <i>Let's Share</i> is a social network platform designed for sharing personal experiences.<br>
+  You will now complete an online group task as a trial run for the platform.<br>
+  The computer will randomly pair you with other people.
+  <br><br>
+  First, all participants in the online task will create usernames, select profile pictures,<br>
+  and write short posts to share with each other.
+  <br><br>
+  Then, you will spend 3 minutes with the other people in your group.<br> 
+  During this time, you will be able to read and react to each others' posts.
+  <br><br>
+  More instructions will follow.<br><br>
+  <b>Thank you!</b><br><br>
+  <button type="submit" id="submit_intro">Continue</button>
+</div>
+
+
+
+<div id="name" style="display:none;" class="instr">
+<!-- 
+/* 
+  
+**Username**
+---------
+You can edit the instructions text for entering usernames below.
+
+*/ 
+-->
+	<h3>Please enter the initials of your first and last name</h3>
+  We want to keep everyone's identity anonymous while completing the group task.<br>
+	Enter your name initials using capital alphabet characters. This will be your username.
+	<br><br>
+	
+	<input type="text" id="username"  autocomplete="off" /><br>	<br>
+	<button type="submit"  id="submit_username">Submit</button>
+</div>
+
+
+
+<div id="avatar" style="display:none;">	
+<!-- 
+/* 
+  
+**Avatar choice**
+---------
+You can edit the instructions text. The text "Your choice of avatar will not be recorded or analyzed" depends on whether you record the choice of avatar.
+
+*/ 
+-->	<h3>Please select a profile picture</h3>
+	This profile picture will represent you during the group task.<br>
+	<br><br>
+	<div class="avatars"></div>
+	<br><button type="submit"  id="submit_avatar">Submit</button>
+	<br><br>
+  <br><br>
+</div>	
+
+
+<div id="text" style="display:none; font-style: normal;" class="instr" >	
+<!-- 
+/* 
+  
+**Description entry**
+---------
+You can edit the instructions text. 
+
+*/ 
+-->	<h3>Share Your Post</h3>
+  Please write a few sentences to post to the <i>Let's Share</i> group in response to the following prompt:<br><br>
+  <h4>In the past week, how have you been feeling regarding school and academics?</h4>
+	<textarea id="description" autocomplete="off" /></textarea><br>
+	<span id="count">Characters left: 400</span><br><br>
+	<button type="submit" id="submit_text">Submit</button>
+</div>	
+
+
+
+<div id="fb_intro" style="display:none;" class="instr">
+<!-- 
+/*
+  
+**Task instructions**
+---------
+You can edit the instructions text. The prompt to try and form an impression of the other players is recommended in all ostacism paradigms. Defining the action of "liking" is also recommended. The information regarding task duration can be adjusted to match the actual duration you have set.
+
+*/ 
+-->  <h3>Group Introduction</h3>
+  Soon after connecting, you should be able to see the other people's profiles. <br>
+  You can read their posts and react to what they wrote about themselves by<br>
+  clicking the “like” icon &hearts;, similar to how you would “like” a post on Instagram,<br>
+  Facebook, Twitter, or TikTok.<br>
+  <br>
+  Even though your interaction is minimal, please try to form an impression of the <br>
+  people in the group. Try to imagine them in real life - how they might socialize with others,<br>
+  what kind of people they are, or how you would get along with them.
+  <br><br>The task will last 3 minutes and it is very important that you pay attention to the task. <br>
+  Some questions about the task will follow.<br>
+  <br><br><b>
+  Please continue to see an example.</b><br>
+  <br>
+  <button type="submit"  id="submit_fb_intro">Continue</button>
+</div>
+
+<div id="fb_guide" style="display:none; padding-top: 20px !important;" class="instr" >
+<!-- 
+/* 
+  
+**Task instructions**
+---------
+You can edit the instructions text. The prompt to try and form an impression of the other players is recommended in all ostacism paradigms. Defining the action of "liking" is also recommended. The information regarding task duration can be adjusted to match the actual duration you have set.
+
+*/ 
+-->  <h3>A visual guide to the <i>Let's Share</i> task</h3>
+<img src="guide.jpg">
+<br>
+
+    <div style="margin-bottom: 100px;">
+        <span style="float: right;"><b>If you're ready, you can proceed to log in.</b></span><br>
+        <br>
+        <button type="submit" id="submit_fb_guide" style="float: right;">Log in</button>
+    </div>
+</div>
+
+<div id="fb_login" style="display:none;" class="instr">
+  <h3>Waiting for other participants</h3>
+  This may take a couple of minutes.
+  <img class="load" src='ajax-loader.gif' id="loader">
+  <div id="msg_all_done" style="display:none;">
+  <br>
+  	<b>All participants are now connected and you are ready to proceed.</b><br><br>
+  	<button type="submit"  id="submit_fb_login">Continue</button>
+  </div>
+</div>
+
+
+<!-- 
+/* 
+  
+**In-task instructions and timer**
+---------
+You can edit the instructions text. 
+
+*/ 
+-->
+<div style="display: flex; align-items: center; justify-content: center; width: 100%; display: none;" id="task-1">
+    <div id="countdown" style="width: 150px; position: fixed; left: 20px;"><span class="secs" style="display: none;"></span>You can click the "like" icon &hearts; if you have enjoyed somebody's post<br><br>time left:<br><span id="timer" class="cntr label label-info"></span>
+    <br>
+    <button type="submit" id='final-continue' style="display:none;">Continue</button>	
+    </div>
+    <div id="rankings" style="position: fixed; left: 20px; margin-top: -20px;">
+    <h3>Ranking</h3>
+    <div style="color: #b0b0b0; font-size: 0.8rem; margin-left: 1rem;">Most Liked</div>
+    <div id="rankingdisplay"></div>
+    <script type="template/text" id="ranking">
+    <ul>
+    {{#rankings}}
+    <li>
+        <span class="badge badge-username {{user_class}}">{{r_username}}</span>
+    </li>
+    {{/rankings}}
+    </ul>
+    </script>
+    <div style="color: #b0b0b0; font-size: 0.8rem; margin-left: 1rem; margin-top: -10px;">Least Liked</div>
+    </div>
+    <div id="task" style="display:none;">
+	
+    </div>
+</div>
+
+
+<script type="template/text" id="usertmp">
+  {{#posts}}
+    
+    <div class="entry">
+    <div class="tophalf">
+
+    	<div style="display: flex; align-items: center; gap: 20px;">
+            <img src="{{avatar}}" class="avatar">
+            <h3>{{username}}</h3>
+        </div>
+
+    	<div class="main">
+    		<p>{{text}}</p>
+    	</div>
+
+    	<br style="clear:both;">
+
+    </div>	
+
+    <div class="bottomhalf">
+    	<span class="badge-custom userslikes" data-likes="{{likes}}" data-usernames="{{usernames}}">0</span> Likes
+    </div>
+    </div>
+
+  {{/posts}}  
+</script>
+
+
+<script type="template/text" id="otherstmp">
+  {{#posts}}
+    <div class="entry">
+    <div class="tophalf">
+
+    	<div style="display: flex; align-items: center; gap: 20px;">
+            <img src="{{avatar}}" class="avatar">
+            <h3>{{username}}</h3>
+        </div>
+    	
+    	<div class="main">
+    		
+    		<p>{{text}}</p>
+    	</div>
+
+    	<br style="clear:both;">
+
+    </div>	
+
+    <div class="bottomhalf">
+    	<span class="badge-custom otherslikes" data-likes="{{likes}}" data-usernames="{{usernames}}" data-username="{{username}}" data-id="{{id}}">0</span> Likes
+    	<button type="submit" class="pull-right btn-like btn-deround"><img src="assets/heart.svg" width=24></i></button>
+    </div>
+
+    </div>
+  {{/posts}}  
+</script>
+
+
+</body>
+</html>

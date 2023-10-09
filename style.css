@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+    padding-top: 30px;
+    font-family: "Geologica", sans-serif !important;
+}
+
+.container {
+    width: 800px;
+}
+
+.tophalf {
+    margin-bottom: 0px !important;
+    background-color: #ffffff;
+    border: 1px solid #d5d7e0;
+    padding: 15px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.entry {
+    width: 240px;
+    float: left;
+    margin: 10px;
+}
+
+div.main {
+    width: 210px !important;
+    margin-left: -16px;
+    margin-top: 30px;
+    margin-bottom: -10px !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+}
+
+img.avatar {
+    width: 75px;
+    height: 75px;
+}
+
+#avatar .avatar {
+    margin: 15px;
+}
+
+.tophalf img {
+    float: left;
+}
+
+.tophalf .main {
+    float: left;
+    width: 120px;
+    font-size: 9pt;
+    text-align: left;
+    padding-left: 15px; /* text to avatar distance */
+}
+
+.tophalf h3 {
+    color: #3b5999;
+    font-variant: normal;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+div.masonry {
+    width: 60vw;
+    margin-left: 150px;
+}
+
+.bottomhalf {
+    clear: both;
+    color: black;
+    height: 15px;
+    background-color: #f5f6fa;
+    border: 1px solid #d5d7e0;
+    padding: 15px !important;
+    font-style: normal !important;
+    border-top: none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.btn-like {
+    padding: 0;
+    margin-top: -2px;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+button.btn {
+    padding: 0;
+}
+button {
+    background-color: #589df1;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 2rem 0.75rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #4c84c9;
+}
+
+button.btn.btn-primary {
+    padding: 3px;
+    color: #ffffff !important;
+}
+
+.badge-custom {
+    background-color: transparent;
+    font-weight: bold;
+    font-style: normal !important;
+    font-size: 17px;
+}
+
+html body {
+    color: #000000;
+}
+#final-continue {
+    margin-top: 20px;
+    padding: 4px;
+}
+
+span.badge.badge-custom.userslikes {
+}
+
+.btn.disabled,
+.btn[disabled] {
+    z-index: 1;
+}
+
+/*
+ * via http://charliepark.org/bootstrap_buttons/
+ */
+.btn-custom {
+    background-color: hsl(195, 60%, 35%) !important;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3B5999", endColorstr="#3B5999");
+    background-image: -khtml-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#3b5999),
+        to(#3b5999)
+    );
+    background-image: -moz-linear-gradient(top, #3b5999, #3b5999);
+    background-image: -ms-linear-gradient(top, #3b5999, #3b5999);
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, #3b5999),
+        color-stop(100%, #3b5999)
+    );
+    background-image: -webkit-linear-gradient(top, #3b5999, #3b5999);
+    background-image: -o-linear-gradient(top, #3b5999, #3b5999);
+    background-image: linear-gradient(#3b5999, #3b5999);
+    border-color: #3b5999 #3b5999 hsl(195, 60%, 32.5%);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-deround {
+    border-radius: 2px;
+    -ms-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+}
+
+.lined {
+    overflow: hidden;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ccc;
+}
+.lined:before,
+.lined:after {
+    background-color: #ccc;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.lined:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.lined:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+#sticky {
+    background-color: #ebedf5;
+    position: fixed;
+    top: 0;
+    width: 700px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    z-index: 999999;
+}
+
+.instr {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#others {
+    margin-top: 260px;
+}
+
+.avatar {
+    border-radius: 50%;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #94969c;
+}
+
+#submit_avatar {
+    float: right;
+    margin-right: 85px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img.avatar.selected {
+    border-color: #589df1;
+    border-width: 5px;
+    border-style: solid;
+    margin: 11px !important;
+    padding: 5px !important;
+    -webkit-box-shadow: inset 0px 0px 0px 10px white;
+    -moz-box-shadow: inset 0px 0px 0px 10px white;
+    box-shadow: inset 0px 0px 0px 10px white;
+}
+
+.load {
+    margin-left: 80px;
+}
+
+#description {
+    width: 500px !important;
+    height: 100px !important;
+    max-height: 100px !important;
+}
+
+#username {
+    width: 500px;
+    height: 30px;
+}
+
+span.cntr.label.label-info {
+    color: #ffffff;
+    background-color: #707070;
+}
+
+#countdown {
+    position: relative;
+    float: right;
+    width: 75px;
+    padding-right: -50px;
+    top: 40px;
+    text-align: left;
+    color: #858585;
+}
+
+.guidetext h1 {
+    color: #4481c3;
+    text-shadow: 0 0 5px #4481c3, 0 0 10px #4481c3, 0 0 15px #4481c3,
+        0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff, 0 0 40px #ffffff,
+        0 0 45px #ffffff;
+    letter-spacing: 5px;
+    font: 20px "Arial";
+}
+
+.guidetext1 h1 {
+    color: #1890fe;
+    text-shadow: 1px 1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+        -1px -1px 0 #ffffff;
+    letter-spacing: 1.5px;
+    font: 16px "Arial";
+    font-weight: bold;
+}
+
+#rankingdisplay ul {
+    list-style-type: none;
+    width: min-content;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.badge-ranking {
+    background-color: #3b5999;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 4px;
+    width: 20px;
+    text-align: center;
+}
+#rankingdisplay {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -20px;
+}
+#timer {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.badge-username {
+    color: white;
+    font-variant: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: #589df1;
+    padding: 10px;
+    margin-top: -2px;
+    font-style: normal !important;
+    font-weight: 400;
+    width: 70px;
+    text-align: left;
+    border-radius: 0px !important;
+}
+.user_ranking {
+    background-color: #5cb811 !important;
+}
+#rankings {
+    position: relative;
+    float: right;
+    width: 135px;
+    margin-right: -135px;
+    top: 230px;
+    text-align: left;
+    color: #858585;
+}
